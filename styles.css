@@ -1,0 +1,697 @@
+
+
+body
+{
+    position: relative;
+    display: inline;
+
+
+}
+/*popup styling */
+.popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    display:none;
+}
+
+#xmas-popup .popup-content{
+    width:600px;
+    height: 600pxs;
+    background: #bbb;
+    margin: 100px auto;
+    position: absolute;
+    border: 5px solid #fff;
+}
+
+.close{
+    position: absolute;
+    top: 5px;
+    right: 100px;
+    border-radius: 50%;
+    background: #222;
+    border: 3px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    line-height: 0;
+    padding: 9px 0 11px;
+    width: 20px;
+    text-align: center;
+}
+
+.popup:target
+{
+    display:block;
+
+ }
+/*                    */
+
+.main{
+   width: 80%;
+   margin: 0 auto;
+   display: block;
+
+
+}
+.thumb{
+     position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color:white;
+    padding: 10px;
+
+}
+#thumb_1{
+    width: 2px;
+    height: 2px;
+    position: absolute;
+    display: inline;
+    background-color: #f8f8f8;
+}
+#thumb_2{
+    width: 2px;
+    height: 2px;
+    position: absolute;
+    display: inline;
+    background-color: white;
+}
+
+#panel img
+{
+    height: 20px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.panel-right{
+    font-size: small;
+    color:grey;
+}
+
+
+/* Style the top navigation bar */
+.navbar
+{
+    overflow: hidden;
+    background-color: white;
+
+}
+
+/* Style the navigation bar links */
+.navbar a
+{
+    float: left;
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.panel-left
+{
+    font-family: "Times New Roman", Times, serif;
+    font-size: large;
+}
+/* Right-aligned link */
+.navbar a.panel-right
+{
+    float: right;
+  text-align: left;
+
+}
+.container {
+
+    position: relative;
+
+}
+.container img{
+    height: 450px;
+    
+}
+
+.Featured{
+    background-color:#f8f8f8;
+    margin-bottom:1px;
+    padding-top: 15px;
+    padding: 10px;
+}
+
+
+
+.text-block {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: ;
+
+    padding-left:0px;
+    padding-right:0px ;
+}
+.text-block p{
+    font-color:grey;
+}
+.text-block h2{
+    font-color:white;
+}
+.under{
+    display: inline;
+    width: 100%;
+    margin-bottom: 0px;
+    position: relative;
+    background-color:grey;
+}
+*
+{
+    box-sizing: border-box;
+
+}
+/* Create three equal columns that floats next to each other */
+.column
+{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 225px;
+    margin:50px auto;
+    font:inherit;
+
+}
+.column img{
+    float: left;
+    width:20%;
+    height:40px;
+}
+.column h2{
+    margin:5px;
+    width: 80%
+    height:auto;
+    float: left;
+
+}
+
+/* Clear floats after the columns */
+
+.row:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+.row{
+    display: inline;
+    width: 90%;
+    margin:0 auto;
+}
+.row_1
+{
+    margin: 8px -16px;
+}
+.row1 .column_1 .content img{
+    width:100%;
+    height: 200px;
+}
+.column_1 .content img{
+    width:100%;height: 200px;
+}
+.row_1,
+.row_1 > .column_1
+{
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column_1
+{
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */
+.row_1:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content
+{
+    background-color: white;
+    padding: 10px;
+}
+.content h3  {
+    margin:3px;
+
+}
+.footer
+{
+   position: inherit;
+   bottom: 0;
+   width: 100%;
+   height: 50px;
+    background-color: rgb(232, 232, 232);
+   color: black;
+   margin:auto;
+   padding-left: 138px;
+    padding-right: 137px;
+}
+#footer_right
+{
+    float: right;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+   color: #cbc9d0;
+    padding: 10px;
+   
+}
+.bottom-left span{
+    margin-bottom: 0px;
+    color: #7E7E7E;
+}
+.bottom-left h2{
+    margin-bottom: 0px;
+    color: white;
+}
+
+
+@media only screen and (min-width: 1024px)
+{
+
+
+
+
+body
+{
+    position: relative;
+    display: inline;
+
+
+}
+.main{
+   width: 80%;
+   margin: 0 auto;
+   display: block;
+
+
+}
+
+/* Style the top navigation bar */
+.navbar
+{
+    overflow: hidden;
+    background-color: white;
+
+}
+.panel-right{
+    font-size: small;
+    color:grey;
+}
+
+/* Style the navigation bar links */
+.navbar a
+{
+    float: left;
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.panel-left
+{
+    font-family: "Times New Roman", Times, serif;
+    font-size: large;
+}
+/* Right-aligned link */
+.navbar a.panel-right
+{
+    float: right;
+    align-content: left;
+}
+
+
+.container {
+
+    position: relative;
+
+}
+.container img{
+    height: 450px;
+    width: auto;
+}
+
+.Featured{
+    background-color: rgb(232, 232, 232);
+    margin-bottom:0px;
+    padding-top: 15px;
+    padding: 10px;
+}
+
+
+
+.text-block {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: ;
+
+    padding-left:0px;
+    padding-right:0px ;
+}
+.text-block p{
+    font-color:grey;
+}
+.text-block h2{
+    font-color:white;
+}
+.under{
+    display: inline;
+    width: 100%;
+    margin-bottom: 0px;
+    position: relative;
+    background-color:grey;
+}
+*
+{
+    box-sizing: border-box;
+
+}
+/* Create three equal columns that floats next to each other */
+.column
+{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 225px;
+    margin:50px auto;
+    font:inherit;
+
+}
+.column img{
+    float: left;
+    width:20%;
+    height:40px;
+}
+.column h2{
+    margin:5px;
+    width: 80%
+    height:auto;
+    float: left;
+
+}
+
+/* Clear floats after the columns */
+
+.row:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+.row{
+    display: inline;
+    width: 90%;
+    margin:0 auto;
+}
+.row1 .column_1 .content img{
+    width:100%;
+    height: 200px;
+}
+.column_1 .content img{
+    width:100%;height: 200px;
+}
+.row_1
+{
+    margin: 8px -16px;
+}
+.row_1,
+.row_1 > .column_1
+{
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column_1
+{
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */
+.row_1:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content
+{
+    background-color: white;
+    padding: 10px;
+}
+.content h3  {
+    margin:3px;
+
+}
+.footer
+{
+   position: inherit;
+   bottom: 0;
+   width: 100%;
+   height: 50px;
+    background-color: rgb(232, 232, 232);
+   color: black;
+   margin:auto;
+   padding:20px;
+   padding-left: 138px;
+    padding-right: 137px;
+
+}
+#footer_right
+{
+    float: right;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color:white;
+}
+}
+
+
+@media only screen and (max-width: 991px)
+{
+
+
+body
+{
+    position: relative;
+    display: inline;
+
+
+}
+.main{
+   width: 80%;
+   margin: 0 auto;
+   display: block;
+
+
+}
+.panel-right{
+    font-size: small;
+    color:grey;
+}
+
+/* Style the top navigation bar */
+.navbar
+{
+    overflow: hidden;
+    background-color: white;
+
+}
+
+/* Style the navigation bar links */
+.navbar a
+{
+    float: left;
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.panel-left
+{
+    font-family: "Times New Roman", Times, serif;
+    font-size: large;
+}
+/* Right-aligned link */
+.navbar a.panel-right
+{
+    float: right;
+    align-content: left;
+}
+
+
+/*text block on the left bottom*/
+.container {
+
+    position: relative;
+
+}
+.container img{
+    height: 450px;
+    width: auto;
+}
+
+.Featured{
+    background-color: rgb(232, 232, 232);
+    margin-bottom:0px;
+    padding-top: 15px;
+    padding: 10px;
+}
+
+
+
+.text-block {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: ;
+
+    padding-left:0px;
+    padding-right:0px ;
+}
+.text-block p{
+    font-color:grey;
+}
+.text-block h2{
+    font-color:white;
+}
+.under{
+    display: inline;
+    width: 100%;
+    margin-bottom: 0px;
+    position: relative;
+    background-color:grey;
+}
+*
+{
+    box-sizing: border-box;
+    padding: 5px;
+}
+/* Create three equal columns that floats next to each other */
+.column
+{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 225px;
+    margin:50px auto;
+    font:inherit;
+
+}
+.column img{
+    float: left;
+    width:20%;
+    height:40px;
+}
+.column h2{
+    margin:5px;
+    width: 80%
+    height:auto;
+    float: left;
+
+}
+
+/* Clear floats after the columns */
+
+.row:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+.row{
+    display: inline;
+    width: 90%;
+    margin:0 auto;
+}
+.row1 .column_1 .content img{
+    width:100%;
+    height: 200px;
+}
+.column_1 .content img{
+    width:100%;height: 200px;
+}        
+.row_1
+{
+    margin: 8px -16px;
+}
+.row_1,
+.row_1 > .column_1
+{
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column_1
+{
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */
+.row_1:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content
+{
+    background-color: white;
+    padding: 10px;
+}
+.content h3  {
+    margin:3px;
+
+}
+.footer
+{
+   position: inherit;
+   bottom: 0;
+   width: 100%;
+   height: 50px;
+    background-color: rgb(232, 232, 232);
+   color: black;
+   margin:auto;
+   padding:20px;
+   padding-left: 138px;
+    padding-right: 137px;
+
+}
+#footer_right
+{
+    float: right;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color:white;
+
+}
+
+}
